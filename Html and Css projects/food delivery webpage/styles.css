@@ -1,0 +1,95 @@
+body{
+    background-color:#fffaf3;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #ff4d30;
+    color: #ffffff;
+    padding: 10px;
+    text-align: left;
+    font-family: "Lora", serif;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-size: small;
+}
+
+.titlee-1{
+    margin-bottom: -10px;
+}
+
+.titlee-2{
+    margin-bottom: -10px;
+}
+
+.logo-box{
+    width: 20%;
+    border-color: black;
+}
+.navbar {
+  list-style: none;   
+  display: flex;           
+  gap: 20px;                
+  padding: 10px 20px;
+  background-color: #fff8f0;
+  justify-content: center; 
+  margin: 0;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-weight: 500;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+}
+
+.hero-page{
+    text-align: center;
+    background-color: #fbe5de;
+    padding: 200px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    margin-top: -180px;
+}
+.row-2{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.row-2 img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.col-btn {
+  text-decoration: none;
+  color: inherit;
+}
+
+.col-btn:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.col-btn {
+    background-color: #fff5eb; 
+    padding : 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}

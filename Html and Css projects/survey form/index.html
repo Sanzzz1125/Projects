@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <h1>Internship Joining Form</h1>
+
+   <form id="form">
+    <div class="form-control">
+        <label for="name" >Name</label>
+        <input type="text"placeholder="Enter your name"/>
+    </div>
+
+    <div class="form-control">
+        <label for="email" >E-Mail</label>
+        <input type="email"placeholder="Enter your email"/>
+    </div>
+
+    <div class="form-control">
+        <label for="age" >Age</label>
+        <input type="text" id="age" placeholder="Enter your age"/>
+    </div>
+
+    <div class="form-control">
+        <label for="role" >Which option describes you best?</label>
+        <select name="role">
+            <option value="student">Student</option>
+            <option value="intern">Intern</option>
+            <option value="professional">Professional</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+
+    <div class="form-control">
+        <label for="recommend">Would you recommend this company to your friend</label>
+        <label for="recommend-1"><input type="radio">Yes</label>
+        <label for="recommend-2"><input type="radio">No</label>
+        <label for="recommend-3"><input type="radio">Maybe</label>
+    </div>
+
+    <div class="form-control">
+        <label>Languages and Frameworks known</label>
+        <label for="inp-1"><input type="checkbox">C</label>
+        <label for="inp-2"><input type="checkbox">C++</label>
+        <label for="inp-3"><input type="checkbox">C#</label>
+        <label for="inp-4"><input type="checkbox">Java</label>
+        <label for="inp-5"><input type="checkbox">Python</label>
+        <label for="inp-6"><input type="checkbox">javaScript</label>
+        <label for="inp-7"><input type="checkbox">React</label>
+        <label for="inp-8"><input type="checkbox">Angular</label>
+        <label for="inp-9"><input type="checkbox">Django</label>
+        <label for="inp-10"><input type="checkbox">Spring</label>
+    </div>
+
+    <div class="form-control">
+        <label for="comments">Comments and suggestions:</label>
+        <textarea placeholder="Enter your text here"></textarea>
+    </div>
+
+    <button type="submit" value="submit" id="button" class="button">Submit</button>
+   </form>
+</body>
+</html>
